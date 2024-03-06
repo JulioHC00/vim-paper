@@ -71,7 +71,7 @@ let s:colors = {
 \  'purple': '#542097',
 \  'white': '#ffffff',
 \  'cyan': '#147a7a'
-}
+\}
 
 
 " We require/expect true colour support, and make no attempt at supporting UIs
