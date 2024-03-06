@@ -53,25 +53,26 @@ command! -nargs=+ Hi call s:Hi(<f-args>)
 
 " Available colors
 let s:colors = {
-\  'background': '#d4ccb9',
-\  'lbackground': '#f7f3e3',
-\  'black': '#000000',
-\  'blue': '#1e6fcc',
-\  'green': '#216609',
-\  'lgreen': '#dfeacc',
-\  'red': '#cc3e28',
-\  'grey': '#777777',
-\  'dgrey': '#555555',
-\  'lgrey1': '#d8d5c7',
-\  'lgrey2': '#bfbcaf',
-\  'lgrey3': '#aaaaaa',
-\  'yellow': '#b58900',
-\  'lyellow': '#f2de91',
-\  'orange': '#a55000',
-\  'purple': '#5c21a5',
-\  'white': '#ffffff',
-\  'cyan': '#158c86'
-\ }
+  'background': '#d4ccb9',
+  'lbackground': '#ebe6d8',
+  'black': '#000000',
+  'blue': '#1a62b8',
+  'green': '#1e5907',
+  'lgreen': '#e1eccb',
+  'red': '#cc3e28',
+  'grey': '#777777',
+  'dgrey': '#555555',
+  'lgrey1': '#e0ddcf',
+  'lgrey2': '#c6c2b3',
+  'lgrey3': '#aaaaaa',
+  'yellow': '#b58900',
+  'lyellow': '#f4e2a1',
+  'orange': '#9d4e00',
+  'purple': '#542097',
+  'white': '#ffffff',
+  'cyan': '#147a7a'
+}
+
 
 " We require/expect true colour support, and make no attempt at supporting UIs
 " that don't have true colour support. We also require support for italics.
