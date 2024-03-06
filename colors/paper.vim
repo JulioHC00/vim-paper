@@ -53,24 +53,24 @@ command! -nargs=+ Hi call s:Hi(<f-args>)
 
 " Available colors
 let s:colors = {
-  'background': '#d4ccb9',
-  'lbackground': '#ebe6d8',
-  'black': '#000000',
-  'blue': '#1a62b8',
-  'green': '#1e5907',
-  'lgreen': '#e1eccb',
-  'red': '#cc3e28',
-  'grey': '#777777',
-  'dgrey': '#555555',
-  'lgrey1': '#e0ddcf',
-  'lgrey2': '#c6c2b3',
-  'lgrey3': '#aaaaaa',
-  'yellow': '#b58900',
-  'lyellow': '#f4e2a1',
-  'orange': '#9d4e00',
-  'purple': '#542097',
-  'white': '#ffffff',
-  'cyan': '#147a7a'
+\  'background': '#d4ccb9',
+\  'lbackground': '#ebe6d8',
+\  'black': '#000000',
+\  'blue': '#1a62b8',
+\  'green': '#1e5907',
+\  'lgreen': '#e1eccb',
+\  'red': '#cc3e28',
+\  'grey': '#777777',
+\  'dgrey': '#555555',
+\  'lgrey1': '#e0ddcf',
+\  'lgrey2': '#c6c2b3',
+\  'lgrey3': '#aaaaaa',
+\  'yellow': '#b58900',
+\  'lyellow': '#f4e2a1',
+\  'orange': '#9d4e00',
+\  'purple': '#542097',
+\  'white': '#ffffff',
+\  'cyan': '#147a7a'
 }
 
 
