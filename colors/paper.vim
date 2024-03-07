@@ -369,7 +369,7 @@ hi! link yardTypeList Todo
 
 " Defining BufferLineInfoSelected highlight
 " We'll make it bold and use a background color that stands out slightly from the normal background
-Hi BufferLineInfoSelected black lbackground
+Hi BufferLineInfoSelected black lbackground NONE
 
 delcommand Hi
 
