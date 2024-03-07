@@ -367,6 +367,10 @@ hi! link yardComment Comment
 hi! link yardType Todo
 hi! link yardTypeList Todo
 
+" Defining BufferLineInfoSelected highlight
+" We'll make it bold and use a background color that stands out slightly from the normal background
+Hi BufferLineInfoSelected black lbackground
+
 delcommand Hi
 
 " vim: et ts=2 sw=2
