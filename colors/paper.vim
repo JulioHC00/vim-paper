@@ -371,6 +371,10 @@ hi! link yardTypeList Todo
 " We'll make it bold and use a background color that stands out slightly from the normal background
 Hi BufferLineInfoSelected black lbackground NONE
 
+" OTHERS NOT DEFINED
+
+Hi DiagnosticInfo blue NONE NONE
+
 delcommand Hi
 
 " vim: et ts=2 sw=2
